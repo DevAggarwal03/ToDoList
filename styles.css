@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+}
+.mainCon{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 90vw;
+    height: 90vh;
+    border: 1px solid brown;
+    text-align: center;
+}
+.title{
+    font-size: 2em;
+    margin-top: 20px;
+}
+.layout{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    padding: 10px 10px;
+    height: 90%;
+}
+.add{
+    border-right: 2px solid rgb(144, 144, 144);
+}
+.wrapper{
+    margin-right: 14px;
+}
+.add input{
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+    padding: 5px 5px;
+    width: 100%;
+}
+.btn{
+    display: flex;
+    flex-wrap: wrap-reverse;
+    width: 100%;
+    justify-content: space-between;
+    /* margin-left: 27px; */
+}
+.btn button{
+    padding: 5px 3px;
+    font-size: 1em;
+    margin-bottom: 10px;
+}
+#resetBtn{
+    flex: 1;
+}
+#taskBtn{
+    flex: 2;
+    min-width: 100px;
+}
+.wrapper2{
+    margin-left: 14px;
+}
+#list{
+    margin-top: 30px;
+}
+#listItems{
+    display: flex;
+    flex-direction: column;
+    /* font-size: 1.2em; */
+    margin-top: 5px;
+    height: 50%;
+}
+#listItems p{
+    border-bottom: 1px solid rgb(209, 184, 184);
+    width: 100%;
+    padding:10px 0px;
+    font-size: 1.5em;
+}
+p:nth-child(1){
+    border-top:1px solid rgb(209, 184, 184);
+}
